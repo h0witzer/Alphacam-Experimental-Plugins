@@ -1,0 +1,139 @@
+
+msgid ""
+msgstr ""
+"Language: en-GB\n"
+"X-Qt-Contexts: true\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: en-GB\n"
+"X-Source-Language: C"
+
+# Name that appears in the Add ins Menu
+msgctxt "autogeometrybridge|"
+msgid "1-1"
+msgstr "Bridge Nested Geometries"
+
+# text for info button in Add Ins Menu
+msgctxt "autogeometrybridge|"
+msgid "2-1"
+msgstr "For Profiling module only."
+
+msgctxt "autogeometrybridge|"
+msgid "2-2"
+msgstr ""
+
+msgctxt "autogeometrybridge|"
+msgid "2-3"
+msgstr "Adds a command called \"Automatic Geometry Bridge\" to"
+
+msgctxt "autogeometrybridge|"
+msgid "2-4"
+msgstr "the \"Bridge Nested Geometries\" group in the \"Geometry\""
+
+msgctxt "autogeometrybridge|"
+msgid "2-5"
+msgstr "tab."
+
+msgctxt "autogeometrybridge|"
+msgid "2-6"
+msgstr ""
+
+msgctxt "autogeometrybridge|"
+msgid "2-7"
+msgstr "Automatically bridges nested GEOMETRIES and cuts them,"
+
+msgctxt "autogeometrybridge|"
+msgid "2-8"
+msgstr "reducing pierce times."
+
+msgctxt "autogeometrybridge|"
+msgid "2-9"
+msgstr ""
+
+msgctxt "autogeometrybridge|"
+msgid "2-10"
+msgstr "Requires the Nesting add-in component."
+
+# text for ALPHACAM Menu Item
+msgctxt "autogeometrybridge|"
+msgid "10-1"
+msgstr "Automatic Geometry Bridge"
+
+# text for user form frmAutoBridge
+msgctxt "autogeometrybridge|"
+msgid "20-1"
+msgstr "Automatic Bridging"
+
+msgctxt "autogeometrybridge|"
+msgid "20-2"
+msgstr "Number of grids"
+
+msgctxt "autogeometrybridge|"
+msgid "20-3"
+msgstr "Grid"
+
+msgctxt "autogeometrybridge|"
+msgid "20-4"
+msgstr "Grids"
+
+msgctxt "autogeometrybridge|"
+msgid "20-5"
+msgstr "Width of Bridge"
+
+# text for progress boxes
+msgctxt "autogeometrybridge|"
+msgid "30-1"
+msgstr "Automatic Geometry Bridging"
+
+msgctxt "autogeometrybridge|"
+msgid "30-2"
+msgstr "Getting Nest Information"
+
+msgctxt "autogeometrybridge|"
+msgid "30-3"
+msgstr "Ordering paths for"
+
+msgctxt "autogeometrybridge|"
+msgid "30-4"
+msgstr "Bridging paths for"
+
+msgctxt "autogeometrybridge|"
+msgid "30-5"
+msgstr "Machining paths for"
+
+# text for message boxes
+msgctxt "autogeometrybridge|"
+msgid "40-1"
+msgstr "Some Paths were not machined"
+
+msgctxt "autogeometrybridge|"
+msgid "40-2"
+msgstr "because ALPHACAM could not find an offset path"
+
+msgctxt "autogeometrybridge|"
+msgid "40-3"
+msgstr "Some paths have not had LeadIn-Out applied"
+
+msgctxt "autogeometrybridge|"
+msgid "40-4"
+msgstr "because the tool direction was set on centre"
+
+# additional text
+msgctxt "autogeometrybridge|"
+msgid "50-1"
+msgstr "Grid"
+
+msgctxt "autogeometrybridge|"
+msgid "50-2"
+msgstr "*NOT USED"
+
+# replaced dollar 50, line 2
+msgctxt "autogeometrybridge|"
+msgid "52-1"
+msgstr "Automatic Bridging only supports nested GEOMETRIES."
+
+msgctxt "autogeometrybridge|"
+msgid "303030-1"
+msgstr "Nesting"

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="8">
+<rules class_id="0" tracking_level="0" version="0">
+	<m_list class_id="1" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item class_id="2" tracking_level="0" version="0">
+			<m_pcl class_id="3" tracking_level="0" version="0">
+				<m_list class_id="4" tracking_level="0" version="0">
+					<count>1</count>
+					<item_version>1</item_version>
+					<item class_id="5" tracking_level="0" version="1">
+						<m_test>0</m_test>
+						<m_op>0</m_op>
+						<m_value class_id="6" class_name="GeometryQuery::PathIsRectangle" tracking_level="1" version="0" object_id="_0">
+							<PathPropertyBool class_id="7" tracking_level="0" version="0">
+								<PathProperty class_id="8" tracking_level="0" version="0"></PathProperty>
+								<m_val class_id="9" tracking_level="0" version="0">
+									<m_val>1</m_val>
+								</m_val>
+							</PathPropertyBool>
+						</m_value>
+						<m_bracket>0</m_bracket>
+					</item>
+				</m_list>
+			</m_pcl>
+			<m_action class_id="10" class_name="GeometryQuery::PathChangeLayer" tracking_level="1" version="0" object_id="_1">
+				<PathAction class_id="11" tracking_level="0" version="0"></PathAction>
+				<m_layer class_id="12" tracking_level="1" version="0" object_id="_2">
+					<sname>Rectangles</sname>
+					<lflags>24</lflags>
+					<l.colour2>16777215</l.colour2>
+					<l.line_type>0</l.line_type>
+					<l.line_width>7</l.line_width>
+					<l.attribute class_id="-1"></l.attribute>
+				</m_layer>
+			</m_action>
+		</item>
+	</m_list>
+</rules>
+</boost_serialization>
+

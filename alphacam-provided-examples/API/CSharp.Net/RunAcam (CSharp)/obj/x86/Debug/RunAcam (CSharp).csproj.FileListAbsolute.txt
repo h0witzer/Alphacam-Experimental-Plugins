@@ -1,0 +1,10 @@
+c:\Users\fferrary\Documents\Visual Studio 2010\Projects\RunAcam (CSharp)\RunAcam (CSharp)\bin\Debug\RunAcam (CSharp).exe
+c:\Users\fferrary\Documents\Visual Studio 2010\Projects\RunAcam (CSharp)\RunAcam (CSharp)\bin\Debug\RunAcam (CSharp).pdb
+c:\Users\fferrary\Documents\Visual Studio 2010\Projects\RunAcam (CSharp)\RunAcam (CSharp)\obj\x86\Debug\Interop.AlphaCAMMill.dll
+c:\Users\fferrary\Documents\Visual Studio 2010\Projects\RunAcam (CSharp)\RunAcam (CSharp)\obj\x86\Debug\Interop.AlphaCAMRouter.dll
+c:\Users\fferrary\Documents\Visual Studio 2010\Projects\RunAcam (CSharp)\RunAcam (CSharp)\obj\x86\Debug\RunAcam (CSharp).csproj.ResolveComReference.cache
+c:\Users\fferrary\Documents\Visual Studio 2010\Projects\RunAcam (CSharp)\RunAcam (CSharp)\obj\x86\Debug\RunAcam__CSharp_.Form1.resources
+c:\Users\fferrary\Documents\Visual Studio 2010\Projects\RunAcam (CSharp)\RunAcam (CSharp)\obj\x86\Debug\RunAcam__CSharp_.Properties.Resources.resources
+c:\Users\fferrary\Documents\Visual Studio 2010\Projects\RunAcam (CSharp)\RunAcam (CSharp)\obj\x86\Debug\RunAcam (CSharp).csproj.GenerateResource.Cache
+c:\Users\fferrary\Documents\Visual Studio 2010\Projects\RunAcam (CSharp)\RunAcam (CSharp)\obj\x86\Debug\RunAcam (CSharp).exe
+c:\Users\fferrary\Documents\Visual Studio 2010\Projects\RunAcam (CSharp)\RunAcam (CSharp)\obj\x86\Debug\RunAcam (CSharp).pdb

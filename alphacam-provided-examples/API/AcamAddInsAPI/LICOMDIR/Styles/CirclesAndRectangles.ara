@@ -1,0 +1,68 @@
+'---------------------------------------------------------------------------------------------------
+'
+'  File Format
+'
+'  $1
+'  Number of Layer Mappings
+'
+'  $5
+'  Run Geometry Query
+'  Geometry Query to Run
+'
+'  $6
+'  Order Nested Toolpaths
+'
+'  $7
+'  Order Work Planes
+'  Order Work Planes - Rotation About
+'  Order Work Planes - Rotation CW Ordering
+'  Order Work Planes - 5-Axis Control
+'  Order Work Planes - 5-Axis Control CW Tilt
+'  Order Work Planes - Clear Empty Planes
+'
+'  $10 - $##
+'  Layer Name
+'  Style Name
+'  Side for Open Geometries (-1=Right, 0=Center, 1=Left, 2=No Change)
+'  Side for Closed Geometries (-1=Outside, 0=Center, 1=Inside, 2=No Change, 3=Auto Cutout, 4=Auto Pocket)
+'  Direction for Closed Geometries (0=CCW, 1=CW, 2=No Change, 3=Auto Climb, 4=Auto Conventional)
+'  Start Point for Closed Geometries (10=Longest Start,11=Longest Mid,12=Longest End,13=Shortest Start,14=Shortest Mid,15=Shortest End,16=Bottom-Left,17=Top-Left,18=Bottom-Right,19=Top-Right,20=No Change)
+'  Direction for Open Geometries (0=No Change, 1=Reverse)
+'
+'---------------------------------------------------------------------------------------------------
+
+$1
+2
+
+$5
+1
+LICOMDIR\Queries\circles and rectangles.agqa
+
+$6
+1
+
+$7
+0
+0
+0
+1
+0
+1
+
+$10
+Circles
+LICOMDIR\Styles\In.ary
+2
+1
+2
+20
+0
+
+$11
+Rectangles
+LICOMDIR\Styles\Out.ary
+2
+-1
+2
+20
+0

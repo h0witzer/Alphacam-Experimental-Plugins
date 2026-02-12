@@ -1,0 +1,457 @@
+
+msgid ""
+msgstr ""
+"Language: en-GB\n"
+"X-Qt-Contexts: true\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: en-GB\n"
+"X-Source-Language: C"
+
+# ..name in add-ins list
+msgctxt "csvfileutil|"
+msgid "1-1"
+msgstr "CSV File Utility"
+
+# ..description in add-ins list
+msgctxt "csvfileutil|"
+msgid "2-1"
+msgstr "Adds the command \"CSV File Utility\" to the Home tab."
+
+msgctxt "csvfileutil|"
+msgid "2-2"
+msgstr ""
+
+msgctxt "csvfileutil|"
+msgid "2-3"
+msgstr "Allows the user to remap and batch process CSV delimited files."
+
+# Menu
+msgctxt "csvfileutil|"
+msgid "25-1"
+msgstr "CSV File Utility"
+
+# Form Names
+msgctxt "csvfileutil|"
+msgid "50-1"
+msgstr "CSV File Processing"
+
+msgctxt "csvfileutil|"
+msgid "50-2"
+msgstr "CSV File Mapping"
+
+msgctxt "csvfileutil|"
+msgid "50-3"
+msgstr "New Map"
+
+msgctxt "csvfileutil|"
+msgid "50-4"
+msgstr "Fixed Field"
+
+msgctxt "csvfileutil|"
+msgid "50-5"
+msgstr "Edit Mapped Field"
+
+# Captions
+msgctxt "csvfileutil|"
+msgid "100-1"
+msgstr "Copy"
+
+msgctxt "csvfileutil|"
+msgid "100-2"
+msgstr "New"
+
+msgctxt "csvfileutil|"
+msgid "100-3"
+msgstr "Edit"
+
+msgctxt "csvfileutil|"
+msgid "100-4"
+msgstr "Delete"
+
+msgctxt "csvfileutil|"
+msgid "100-5"
+msgstr "Settings"
+
+msgctxt "csvfileutil|"
+msgid "100-6"
+msgstr "Available Maps"
+
+msgctxt "csvfileutil|"
+msgid "100-7"
+msgstr "Destination Directory"
+
+msgctxt "csvfileutil|"
+msgid "100-8"
+msgstr "Save to Subdirectory"
+
+msgctxt "csvfileutil|"
+msgid "100-9"
+msgstr "CSV Files to Process"
+
+msgctxt "csvfileutil|"
+msgid "100-10"
+msgstr "Clear"
+
+msgctxt "csvfileutil|"
+msgid "100-11"
+msgstr "Add"
+
+msgctxt "csvfileutil|"
+msgid "100-12"
+msgstr "Help"
+
+msgctxt "csvfileutil|"
+msgid "100-13"
+msgstr "Save"
+
+msgctxt "csvfileutil|"
+msgid "100-14"
+msgstr "Process"
+
+msgctxt "csvfileutil|"
+msgid "100-15"
+msgstr "Cancel"
+
+msgctxt "csvfileutil|"
+msgid "100-16"
+msgstr "Original CSV File Map"
+
+msgctxt "csvfileutil|"
+msgid "100-17"
+msgstr "New CSV File Map"
+
+msgctxt "csvfileutil|"
+msgid "100-18"
+msgstr "Has Header Field"
+
+msgctxt "csvfileutil|"
+msgid "100-19"
+msgstr "Uses Header Field"
+
+msgctxt "csvfileutil|"
+msgid "100-20"
+msgstr "Delimiter"
+
+msgctxt "csvfileutil|"
+msgid "100-21"
+msgstr "Custom"
+
+msgctxt "csvfileutil|"
+msgid "100-22"
+msgstr "OK"
+
+msgctxt "csvfileutil|"
+msgid "100-23"
+msgstr "CSV File Mapping"
+
+msgctxt "csvfileutil|"
+msgid "100-24"
+msgstr "DXF Destination Directory"
+
+msgctxt "csvfileutil|"
+msgid "100-25"
+msgstr "NC Destination Directory"
+
+msgctxt "csvfileutil|"
+msgid "100-26"
+msgstr "Select Finger Pull Template"
+
+msgctxt "csvfileutil|"
+msgid "100-27"
+msgstr "Select Destination Directory"
+
+msgctxt "csvfileutil|"
+msgid "100-28"
+msgstr "Name"
+
+msgctxt "csvfileutil|"
+msgid "100-29"
+msgstr "Copy Existing Map"
+
+msgctxt "csvfileutil|"
+msgid "100-30"
+msgstr "Field Value"
+
+msgctxt "csvfileutil|"
+msgid "100-31"
+msgstr "Fixed Field is Empty"
+
+msgctxt "csvfileutil|"
+msgid "100-32"
+msgstr "Listed Files Contain Header Fields"
+
+# Tool Tips
+msgctxt "csvfileutil|"
+msgid "150-1"
+msgstr "Move Up"
+
+msgctxt "csvfileutil|"
+msgid "150-2"
+msgstr "Move down"
+
+msgctxt "csvfileutil|"
+msgid "150-3"
+msgstr "Add Fixed Field"
+
+msgctxt "csvfileutil|"
+msgid "150-4"
+msgstr "Delete Field"
+
+msgctxt "csvfileutil|"
+msgid "150-5"
+msgstr "Delete File"
+
+msgctxt "csvfileutil|"
+msgid "150-6"
+msgstr "Quit without saving"
+
+msgctxt "csvfileutil|"
+msgid "150-7"
+msgstr "Load File"
+
+msgctxt "csvfileutil|"
+msgid "150-8"
+msgstr "Add File"
+
+msgctxt "csvfileutil|"
+msgid "150-9"
+msgstr "Custom Delimiter"
+
+msgctxt "csvfileutil|"
+msgid "150-10"
+msgstr "Original CSV file has headers"
+
+msgctxt "csvfileutil|"
+msgid "150-11"
+msgstr "New CSV file has headers"
+
+msgctxt "csvfileutil|"
+msgid "150-12"
+msgstr "Process listed files"
+
+msgctxt "csvfileutil|"
+msgid "150-13"
+msgstr "Save changes"
+
+msgctxt "csvfileutil|"
+msgid "150-14"
+msgstr "Help for CSV File Processing"
+
+msgctxt "csvfileutil|"
+msgid "150-15"
+msgstr "Edit Field"
+
+msgctxt "csvfileutil|"
+msgid "150-16"
+msgstr "Move Selected"
+
+msgctxt "csvfileutil|"
+msgid "150-17"
+msgstr "Move All"
+
+msgctxt "csvfileutil|"
+msgid "150-18"
+msgstr "Original Index"
+
+msgctxt "csvfileutil|"
+msgid "150-19"
+msgstr "Sample Data"
+
+msgctxt "csvfileutil|"
+msgid "150-20"
+msgstr "New Index"
+
+msgctxt "csvfileutil|"
+msgid "150-21"
+msgstr "Fixed Field"
+
+msgctxt "csvfileutil|"
+msgid "150-22"
+msgstr "Fixed Field Data"
+
+# Prompts
+msgctxt "csvfileutil|"
+msgid "200-1"
+msgstr "Select Delimited File(s)"
+
+msgctxt "csvfileutil|"
+msgid "200-2"
+msgstr "Select Delimited File"
+
+msgctxt "csvfileutil|"
+msgid "200-3"
+msgstr "Select Drawing File"
+
+msgctxt "csvfileutil|"
+msgid "200-4"
+msgstr "Select AutoStyle File"
+
+msgctxt "csvfileutil|"
+msgid "200-5"
+msgstr "Select Finger Pull Template"
+
+msgctxt "csvfileutil|"
+msgid "200-6"
+msgstr "Select Template"
+
+msgctxt "csvfileutil|"
+msgid "200-7"
+msgstr "Select External File to Execute"
+
+msgctxt "csvfileutil|"
+msgid "200-8"
+msgstr "Select Exe"
+
+msgctxt "csvfileutil|"
+msgid "200-9"
+msgstr "Part files"
+
+msgctxt "csvfileutil|"
+msgid "200-10"
+msgstr "Open DXF File"
+
+msgctxt "csvfileutil|"
+msgid "200-11"
+msgstr "Open AutoStyle"
+
+# Messages
+msgctxt "csvfileutil|"
+msgid "250-1"
+msgstr "Remove all highlighted files from the list?"
+
+msgctxt "csvfileutil|"
+msgid "250-2"
+msgstr "Error Reading Database"
+
+msgctxt "csvfileutil|"
+msgid "250-3"
+msgstr "Error"
+
+msgctxt "csvfileutil|"
+msgid "250-4"
+msgstr "Remove all highlighted files from the list?"
+
+msgctxt "csvfileutil|"
+msgid "250-5"
+msgstr "Remove existing map?"
+
+msgctxt "csvfileutil|"
+msgid "250-6"
+msgstr "No Map Name Specified. Enter Map Name and Try Again."
+
+msgctxt "csvfileutil|"
+msgid "250-7"
+msgstr "Selected file is not a valid delimited file."
+
+msgctxt "csvfileutil|"
+msgid "250-8"
+msgstr "No Header Name Specified. Would You Like to Continue?"
+
+msgctxt "csvfileutil|"
+msgid "250-9"
+msgstr "No Field Value Specified. Enter Field Value and Try Again."
+
+msgctxt "csvfileutil|"
+msgid "250-10"
+msgstr "Otherwise select Fixed Field is Empty Checkbox"
+
+msgctxt "csvfileutil|"
+msgid "250-11"
+msgstr "Copy All Fields?"
+
+msgctxt "csvfileutil|"
+msgid "250-12"
+msgstr "Copy Selected Fields?"
+
+msgctxt "csvfileutil|"
+msgid "250-13"
+msgstr "No Header Name Specified. Enter Header Name and Try Again."
+
+msgctxt "csvfileutil|"
+msgid "250-14"
+msgstr "Can Not Locate Map in Database"
+
+msgctxt "csvfileutil|"
+msgid "250-15"
+msgstr "Can Not Locate Map to Copy in Database."
+
+msgctxt "csvfileutil|"
+msgid "250-16"
+msgstr "Specified Directory Does Not Exist. Would You Like to Create It?"
+
+msgctxt "csvfileutil|"
+msgid "250-17"
+msgstr "One or more files will be over written. Continue?"
+
+msgctxt "csvfileutil|"
+msgid "250-18"
+msgstr "One or more files could not be processed."
+
+msgctxt "csvfileutil|"
+msgid "250-19"
+msgstr "Please see"
+
+msgctxt "csvfileutil|"
+msgid "250-20"
+msgstr "for details."
+
+# Report Captions
+msgctxt "csvfileutil|"
+msgid "300-1"
+msgstr "File Name"
+
+msgctxt "csvfileutil|"
+msgid "300-2"
+msgstr "Full Path"
+
+msgctxt "csvfileutil|"
+msgid "300-3"
+msgstr "Clear part file list?"
+
+msgctxt "csvfileutil|"
+msgid "300-4"
+msgstr "New"
+
+msgctxt "csvfileutil|"
+msgid "300-5"
+msgstr "Header"
+
+msgctxt "csvfileutil|"
+msgid "300-6"
+msgstr "Sample"
+
+msgctxt "csvfileutil|"
+msgid "300-7"
+msgstr "Org"
+
+msgctxt "csvfileutil|"
+msgid "300-8"
+msgstr "Fixed"
+
+msgctxt "csvfileutil|"
+msgid "300-9"
+msgstr "Fixed Value"
+
+# Extras
+msgctxt "csvfileutil|"
+msgid "1000-1"
+msgstr "Exit"
+
+msgctxt "csvfileutil|"
+msgid "1000-2"
+msgstr "Coming Soon to an App Near You!"
+
+msgctxt "csvfileutil|"
+msgid "1000-3"
+msgstr ""
+
+msgctxt "csvfileutil|"
+msgid "1000-4"
+msgstr "END"
+
+msgctxt "csvfileutil|"
+msgid "303030-1"
+msgstr "Utility"
