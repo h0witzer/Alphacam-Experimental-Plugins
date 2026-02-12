@@ -1,0 +1,4 @@
+#define MAJOR_NUMBER 7
+#define MINOR_NUMBER 5
+#define REVISION_NUMBER 0
+#define BUILD_NUMBER 100
