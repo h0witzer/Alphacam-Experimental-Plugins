@@ -1,0 +1,125 @@
+$10
+
+$20 'Error messages for post
+USE LINEAR CODES - NOT SUBROUTINES
+RADIUS COMPENSATION MUST BE CREATED ON LINEAR MOVEMENT - NOT ON ARC!!!!
+THIS POST PROCESSOR IS ONLY FOR ROUTER
+Check Operation no.: 
+
+$31 'Text messages in Program
+DRAWING NAME:
+PROGRAMMED BY:
+DATE: 
+TIME: 
+OPERATOR: 
+ESTIMATED PROCESSING TIME:  
+ MINUTES 
+ SECONDS 
+DIMENSIONS: 
+** 10 **
+LEN=
+WID=
+THI=
+VARIABLE FOR ORIGIN NO.
+OFFSET IN X
+OFFSET IN Y
+OFFSET IN Z
+THICKNESS
+HOME X
+HOME Y
+** 21 **
+GET ORIGIN FROM #100
+OFFSET IN XYZ
+SPINDLE SPEED
+WITH
+TOOL CHANGE, PICK UP
+PROGRAM STOP
+SPINDLE START AFTER PROGRAM STOP
+
+$32 ' More messages
+NC Code
+All Files
+
+$40 ''Reset to Default Offset
+0
+0
+0
+
+$41 ''Default Offset 1
+1
+1
+1
+
+$42 ''Default Offset 2
+2
+2
+2
+
+$43 ''Default Offset 3
+3
+3
+0
+
+$44 ''Default Offset 4
+4
+4
+0
+
+$50 ''Texts in dialog
+Panel Size, Select Method
+Length
+Width
+Thickness
+Work Volume
+Material
+Manual
+Origins
+Offsets from Origin
+10
+Offset in X
+Offset in Y
+Offset in Z
+General Information
+Description
+Revision
+Material
+Programmer
+Settings
+20
+
+$51 ''Texts in Default Dialog
+Settings for Default Values ??for Postprocessor
+Names of Origins
+Enter Name
+Origin 1
+Origin 2
+Origin 3
+Origin 4
+Origin 5
+Origin 6
+10
+Names for Displacements
+Enter Name and Values
+Offset 1
+Offset 2
+Offset 3
+Offset 4
+Reset
+
+$60  ''Error Messages for Drawing
+WARNING!! There must be at least one visible toolpath in your drawing.
+WARNING!! You have selected a tool number that is higher than 
+ which is not possible on your machine. Check your operations and try again.
+WARNING!! You have selected an Offset number that is higher than
+WARNING!! You seem to have selected a tool called: 
+, with different tool numbers. Check your drawing and try again.
+WARNING!! You have used the same Tool Number on two different Tools with no. =
+ check your drawing and try again.
+WARNING!! You have used the same Offset Number on two different tools, Offset No. =
+** 10 **
+* * TOOLS USED IN THIS PROGRAM * *
+T. NR  ; OFS.  ; NAME                     
+WARNING!! The tool feed rate in Operation
+ appears to be 0.
+You are about to perform tapping but your Postprocessor is set to perform drilling routines linearly. Contact reseller for further information.
+You are about to perform boring, but your Postprocessor is set to perform drilling routines linearly. Contact reseller for further information.
