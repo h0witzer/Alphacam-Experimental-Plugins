@@ -1,39 +1,98 @@
-# CHM Files Directory
+# Alphacam API Documentation - CHM Files
 
-Place your Alphacam API documentation (.chm files) in this directory.
+This directory contains Compiled HTML Help (.chm) files documenting the complete Alphacam API suite.
+
+## CHM Files Included
+
+This directory now contains **6 CHM files** with comprehensive API documentation:
+
+### 1. **acamapi.chm** (506 KB, 194 pages)
+Core Alphacam CAD/CAM API - the foundation for all Alphacam automation. Covers drawing operations, geometry creation, machining, toolpaths, NC output, and event system.
+
+### 2. **Nesting.chm** (115 KB, 152 pages)
+Advanced sheet nesting and layout optimization API. Automated part placement, material utilization, multiple nesting engines, and custom extensions.
+
+### 3. **AEDITAPI.chm** (145 KB, 154 pages)
+Alphacam Editor automation API. Document management, text selection, cursor control, and editor operations.
+
+### 4. **Feature.chm** (366 KB, 58 pages)
+Feature extraction API for 3D solid models. Automatic feature recognition, contour extraction, face analysis, and part alignment utilities.
+
+### 5. **Primitives.chm** (132 KB, 15 pages)
+Utility library with vector graphics primitives (gVector, gPoint, gColor), file operations, encryption, and CSV reading.
+
+### 6. **ConstraintsAPI.chm** (50 KB, 12 pages)
+Parametric constraint management. Define parameters, algebraic relationships, and geometric constraints for constraint-driven design.
+
+## Quick Start
+
+### View Documentation
+
+**On Windows:**
+Double-click any .chm file to open in Windows Help viewer.
+
+**On Linux/Mac:**
+Use the CHM reader tools:
+```bash
+# Extract to HTML
+python tools/chm-reader/extract_chm.py docs/chm-files/acamapi.chm --output /tmp/extracted
+
+# Search documentation
+python tools/chm-reader/search_chm.py docs/chm-files/acamapi.chm --query "CreateMillData"
+```
+
+### Browse Documentation
+
+See **[README.md](./README.md)** for:
+- Comprehensive API overview
+- Feature comparison table
+- Use case matrix
+- Quick start guide
+- Code examples
+- API relationships
+
+Individual API documentation:
+- [acamapi.md](./acamapi.md) - Core API details
+- [Nesting.md](./Nesting.md) - Nesting API details
+- [AEDITAPI.md](./AEDITAPI.md) - Editor API details
+- [Feature.md](./Feature.md) - Feature API details
+- [Primitives.md](./Primitives.md) - Primitives API details
+- [ConstraintsAPI.md](./ConstraintsAPI.md) - Constraints API details
 
 ## What are CHM Files?
 
-CHM (Compiled HTML Help) files are compressed collections of HTML pages that contain documentation. They're commonly used for Windows application documentation, including API references.
+CHM (Compiled HTML Help) files are compressed collections of HTML pages containing documentation. They're commonly used for Windows application documentation, including API references.
 
-## Usage
+**Total Documentation**: 585 HTML pages across all 6 CHM files
 
-1. **Download or copy** your Alphacam API .chm files to this directory
-2. **View on Windows**: Simply double-click the .chm file
-3. **View on Linux/Mac**: Use the CHM reader tools in `tools/chm-reader/`
+## Development Resources
 
-## CHM Reader Tools
+### For VBA Developers
+Start with **acamapi.chm** and **Primitives.chm** for basic automation.
 
-Convert CHM files to browsable HTML:
+### For Add-in Developers
+Review all CHMs to understand the complete API surface.
 
-```bash
-# Extract all contents
-python tools/chm-reader/extract_chm.py docs/chm-files/your-file.chm --output docs/api-reference/extracted
+### For Feature-Based CAM
+Focus on **Feature.chm** and **acamapi.chm**.
 
-# Convert to HTML with index
-python tools/chm-reader/chm_to_html.py docs/chm-files/your-file.chm --output docs/api-reference/html
+### For Nesting Applications
+Focus on **Nesting.chm** and **acamapi.chm**.
 
-# Search within CHM
-python tools/chm-reader/search_chm.py docs/chm-files/your-file.chm --query "DrawLine"
-```
+## Additional Documentation
 
-## Organizing CHM Files
+- **[../../QUICKSTART.md](../../QUICKSTART.md)** - Quick start guide
+- **[../README.md](../README.md)** - Documentation overview
+- **[../api-reference/README.md](../api-reference/README.md)** - API reference
+- **[../guides/README.md](../guides/README.md)** - How-to guides
+- **[../../csharp-addins/examples/](../../csharp-addins/examples/)** - C# examples
+- **[../../vba-macros/examples/](../../vba-macros/examples/)** - VBA examples
 
-Use descriptive names for your CHM files:
-- `alphacam-api-2024-reference.chm`
-- `alphacam-vba-guide.chm`
-- `alphacam-macro-examples.chm`
+## Tools
 
-## Note
+CHM reader tools available in `tools/chm-reader/`:
+- `extract_chm.py` - Extract CHM to HTML files
+- `chm_to_html.py` - Convert to browsable HTML
+- `search_chm.py` - Search CHM documentation
 
-CHM files are not included in the Git repository by default. Each developer should download or copy the necessary documentation files to this directory.
+See [tools/chm-reader/README.md](../../tools/chm-reader/README.md) for details.
