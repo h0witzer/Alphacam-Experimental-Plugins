@@ -1,0 +1,23 @@
+References used for EditOpsExample_SolidRoughFinish
+
+
+NAME        : VBA
+DESCRIPTION : Visual Basic For Applications
+PATH        : C:\Program Files (x86)\Common Files\Microsoft Shared\VBA\VBA6\VBE6.DLL
+
+
+NAME        : AlphaCAMRouter
+DESCRIPTION : AlphaCAM Router
+PATH        : D:\Alphacam 2012 R1\Acam.exe\3
+
+
+NAME        : stdole
+DESCRIPTION : OLE Automation
+PATH        : C:\Windows\SysWOW64\stdole2.tlb
+
+
+NAME        : AlphaCAMFeatureExtraction
+DESCRIPTION : Alphacam Feature Extraction
+PATH        : D:\Alphacam 2012 R1\Add-Ins\Feature\Feature.dll
+
+

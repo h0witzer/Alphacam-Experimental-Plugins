@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Common Files\Microsoft Shared\VBA\VBA6\VBE6.DLL
+D:\Alphacam 2012 R1\Acam.exe\3
+C:\Windows\SysWOW64\stdole2.tlb
+D:\Alphacam 2012 R1\Add-Ins\Feature\Feature.dll

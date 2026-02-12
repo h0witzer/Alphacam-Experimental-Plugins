@@ -1,0 +1,147 @@
+Language file
+
+$1 '' Name that appears in the Add Ins Menu 
+Example - Editable Ops, Shower Base
+
+$2
+This is an example add-in that demonstrates
+how to create custom operation types that
+are associative and can be edited/updated.
+
+Adds a new "Editable Ops" menu and
+a "Shower Base Machining" command.
+
+$3
+Shower &Base...
+
+$5
+Shower Base Machining
+
+$8
+Machining
+Tool
+
+$10
+Change Tool
+Tool Data
+Tool Number
+Offset Number 
+Diameter 
+Spindle Speed
+Down Feed
+Cut Feed
+Deep Increase
+Diameter Hole 
+Number Operation 
+Tool 
+
+$12
+Coolant
+None
+Mist
+Flood
+Through Tool
+
+$13
+Selected Elements 
+Profile 
+Circle
+
+$14
+Type 
+Drilling
+Pecking
+Roughing
+Machine Cycle 
+
+$16
+Z Levels (or distance from the plane) 
+Safe Rapid Level 
+Rapid Down To 
+Material Top
+Final Depth 
+Plane of Return 
+
+$18
+Distance 
+From the Profile 
+Among the Holes 
+Offset In Z 
+
+$20
+Cutting Method
+One Way 
+Bidirectional
+
+$22
+Start Cutting At   
+Hole 
+Profile 
+
+$23
+Cutting Options
+Along Profile
+Radial
+
+$25
+Final Depth at Profile
+Final Depth at Hole
+Step Along Profile 
+Radial Angle
+Stock to be Left 
+
+$30
+WARNING
+The diameter of the selected hole is smaller or 
+equal to the diameter of the selected tool.
+The Safe Z is less than the Rapid Z.
+The Safe Z is less than the Material Top.
+The Rapid Z is less than the Material Top.
+Some machining have a tilted entry - perforation not performed.
+The selected external geometry is open.
+Offset of the external profile not produced - Problems on the profile
+Hole center must reside inside of profile geometry.
+
+$32
+Invalid number of geometries found in the operation, unable to edit.
+
+$35
+Machining
+2D 
+3D 
+
+$40
+Select contour pocketing Path 
+Select Hole Geometry
+Select Profile Geometry 
+Selects  the surfaces 
+Selects the circle 
+
+$50
+&OK
+&Cancel
+Preview 
+Applies
+&About
+
+$60' Drilling with machine cycle
+Length of initial tract
+Feed of initial tract
+Final feed
+Distance from end hole Stop Coolant 
+Distance from end hode Reduction Feed
+Final additional move
+Peck distance 
+Z value in retraction
+
+$65
+Return 
+Return in Rapid 
+Return in job 
+Feed
+
+$70
+Applying toolpath, please wait...
+
+$100
+SHOWER BASE

@@ -1,0 +1,109 @@
+Language file
+
+$1 '' Name that appears in the Add Ins Menu 
+Example - Editable Ops, Boring Along 2D Line
+
+$2
+This is an example add-in that demonstrates
+how to create custom operation types that
+are associative and can be edited/updated.
+
+Adds a new "Editable Ops" menu and
+a "Boring Along 2D Line" command.
+
+$3
+&Boring Along 2D Line...
+Apply Style &Horizontally Along 2D Line...
+
+$5
+Boring Along 2D Line
+Apply Style Horizontally Along 2D Line
+
+$8
+&OK
+&Cancel
+&About
+$Help
+Change Tool
+Select Style
+
+$10
+Z Levels (or distance from the plane) 
+Safe Rapid Level 
+Rapid Down To 
+Material Top
+Bottom of Hole
+Set Bottom at Line Endpoint
+Hole Center Z Shift (Global)
+Pecking
+Peck Distance
+Dwell Time 
+Peck Retract
+Full
+Partial
+
+$12
+Geometry to Machine
+Circle
+Rectangle
+Diameter
+X Dimension
+Y Dimension
+CW Tool Direction
+Depth of Cut
+Geo Center Z Shift (Global)
+Set Depth at Line Endpoint
+Use Depths within Style (Non-Auto Z)
+Use Specified Depth of Cut
+Corner Rad
+Set Start Point at Middle of Longest Element (Otherwise a Corner)
+2D Line Selection
+Pick Lines
+All Lines on Specified Layer
+Layer
+
+$15
+Traverse At
+Safe Rapid
+Rapid Level
+
+$20
+Hole Depth
+Drill Tip
+Shoulder
+
+$25
+Tool Data
+Tool Number
+Offset Number 
+Drill Diameter 
+Spindle Speed
+Drill Feed
+Tool Diameter
+Cut Feed
+
+$30
+Coolant
+None
+Mist
+Flood
+Through Tool
+
+$50
+Select Hole Center Lines
+Please enter a valid pecking distance.
+Select Geometry Center Lines
+Please select a valid Machining Style.
+Failed to apply the selected Machining Style.
+
+$60
+Select Machining Style
+Loading Styles...
+Please select a Machining Style
+Machining
+
+$75
+Arcs and 3D Polylines will be ignored.
+
+$100
+BORING 2D LINE

@@ -1,0 +1,48 @@
+References used for EditOpsExample_ShowerBase
+
+
+NAME        : VBA
+DESCRIPTION : Visual Basic For Applications
+PATH        : C:\Program Files (x86)\Common Files\Microsoft Shared\VBA\VBA6\VBE6.DLL
+
+
+NAME        : AlphaCAMRouter
+DESCRIPTION : AlphaCAM Router
+PATH        : D:\Alphacam 2012 R1\Acam.exe\3
+
+
+NAME        : stdole
+DESCRIPTION : OLE Automation
+PATH        : C:\Windows\SysWOW64\stdole2.tlb
+
+
+NAME        : MSForms
+DESCRIPTION : Microsoft Forms 2.0 Object Library
+PATH        : C:\Windows\SysWOW64\FM20.DLL
+
+
+NAME        : Scripting
+DESCRIPTION : Microsoft Scripting Runtime
+PATH        : C:\Windows\SysWOW64\scrrun.dll
+
+
+NAME        : VBIDE
+DESCRIPTION : Microsoft Visual Basic for Applications Extensibility 5.3
+PATH        : C:\Program Files (x86)\Common Files\Microsoft Shared\VBA\VBA6\VBE6EXT.OLB
+
+
+NAME        : AlphaCAMFeatureExtraction
+DESCRIPTION : Alphacam Feature Extraction
+PATH        : D:\Alphacam 2012 R1\Add-Ins\Feature\Feature.dll
+
+
+NAME        : ACAMNESTLib
+DESCRIPTION : Alphacam Nesting v3.0 Type Library
+PATH        : D:\Alphacam 2012 R1\Add-Ins\Nesting\AcamRadNest.dll
+
+
+NAME        : AlphaCAMSTL
+DESCRIPTION : AlphaCAM STL 1.0 Type Library
+PATH        : D:\Alphacam 2012 R1\Add-Ins\InputSTL\InputSTL.dll
+
+

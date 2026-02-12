@@ -1,0 +1,12 @@
+Language file
+
+$1 '' Name that appears in the Add Ins Menu 
+Example - Editable Ops, Solid Rough/Finish
+
+$2
+This is an example add-in that demonstrates
+how to create custom operation types that
+are associative and can be edited/updated.
+
+Adds a new "Editable Ops" menu and "Solid Rough/Finish"
+and "Solid Rough/Finish Faces" commands.

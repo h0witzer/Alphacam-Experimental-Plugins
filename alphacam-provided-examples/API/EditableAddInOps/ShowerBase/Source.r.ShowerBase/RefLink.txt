@@ -1,0 +1,9 @@
+C:\Program Files (x86)\Common Files\Microsoft Shared\VBA\VBA6\VBE6.DLL
+D:\Alphacam 2012 R1\Acam.exe\3
+C:\Windows\SysWOW64\stdole2.tlb
+C:\Windows\SysWOW64\FM20.DLL
+C:\Windows\SysWOW64\scrrun.dll
+C:\Program Files (x86)\Common Files\Microsoft Shared\VBA\VBA6\VBE6EXT.OLB
+D:\Alphacam 2012 R1\Add-Ins\Feature\Feature.dll
+D:\Alphacam 2012 R1\Add-Ins\Nesting\AcamRadNest.dll
+D:\Alphacam 2012 R1\Add-Ins\InputSTL\InputSTL.dll
