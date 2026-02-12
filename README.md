@@ -60,10 +60,15 @@ Alphacam-Experimental-Plugins/
    cd Alphacam-Experimental-Plugins
    ```
 
-2. **Add your CHM documentation files**:
-   - Place Alphacam API .chm files in `docs/chm-files/`
+2. **Review API documentation**:
+   - See **[docs/chm-files/README.md](docs/chm-files/README.md)** for complete API reference
+   - 6 CHM files with 585+ pages of documentation covering all Alphacam APIs
 
-3. **Set up CHM reader tools** (optional, for Linux/Mac or advanced Windows users):
+3. **Add your CHM documentation files** (if needed):
+   - CHM files are already included in `docs/chm-files/`
+   - Additional documentation can be placed there
+
+4. **Set up CHM reader tools** (optional, for Linux/Mac or advanced Windows users):
    ```bash
    # Linux/Mac
    ./scripts/setup-chm-tools.sh
@@ -72,7 +77,25 @@ Alphacam-Experimental-Plugins/
    scripts\setup-chm-tools.bat
    ```
 
-## 📖 Using CHM Documentation
+## 📖 API Documentation
+
+This repository includes comprehensive API documentation for all Alphacam APIs:
+
+- **[acamapi](docs/chm-files/acamapi.md)** - Core CAD/CAM API (194 pages)
+- **[Nesting](docs/chm-files/Nesting.md)** - Sheet nesting & optimization (152 pages)
+- **[AEDITAPI](docs/chm-files/AEDITAPI.md)** - Editor automation (154 pages)
+- **[Feature](docs/chm-files/Feature.md)** - Feature extraction (58 pages)
+- **[Primitives](docs/chm-files/Primitives.md)** - Utility library (15 pages)
+- **[ConstraintsAPI](docs/chm-files/ConstraintsAPI.md)** - Parametric constraints (12 pages)
+
+**See [docs/chm-files/README.md](docs/chm-files/README.md)** for the complete overview with:
+- Detailed API descriptions
+- Use case matrix
+- Quick start guides
+- Code examples
+- API relationships
+
+### Viewing CHM Documentation
 
 ### On Windows
 Simply double-click the .chm files in `docs/chm-files/` to view them in Windows Help Viewer.

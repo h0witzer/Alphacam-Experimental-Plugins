@@ -2,6 +2,17 @@
 
 This directory contains guides and tutorials for developing Alphacam macros and addins.
 
+## API Documentation
+
+Before starting development, review the comprehensive API documentation in **[../chm-files/README.md](../chm-files/README.md)** which covers:
+
+- **acamapi** - Core Alphacam CAD/CAM API
+- **Nesting** - Sheet nesting and optimization
+- **AEDITAPI** - Editor automation
+- **Feature** - Feature extraction
+- **Primitives** - Utility objects and graphics
+- **ConstraintsAPI** - Parametric constraints
+
 ## Available Guides
 
 *(Add your guides here as you create them)*
