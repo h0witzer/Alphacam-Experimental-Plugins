@@ -35,7 +35,7 @@ The core object that manages nesting operations.
 
 **Event Handlers:**
 - `RegisterEventHandler` - Register for nesting events
-- `RegisterExtensionHander` - Register extension handlers
+- `RegisterExtensionHandler` - Register extension handlers
 - `RegisterDebugEventHandler` - Debug event monitoring
 - `RegisterDebugExtensionHandler` - Debug extension monitoring
 - `UnRegisterEventHandler` - Unregister handlers
