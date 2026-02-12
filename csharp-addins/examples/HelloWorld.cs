@@ -15,8 +15,8 @@ namespace AlphacamAddins.Examples
     {
         public void Execute()
         {
-            string message = "Hello World from Alphacam C# Addin!\n\n" +
-                           "This is a simple example to get you started.\n" +
+            string message = "Hello World from Alphacam C# Addin!" + Environment.NewLine + Environment.NewLine +
+                           "This is a simple example to get you started." + Environment.NewLine +
                            "Check the templates folder for more complex examples.";
             
             // Using Console for cross-platform compatibility
