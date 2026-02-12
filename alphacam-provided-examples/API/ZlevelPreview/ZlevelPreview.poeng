@@ -1,0 +1,43 @@
+
+msgid ""
+msgstr ""
+"Language: en-GB\n"
+"X-Qt-Contexts: true\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: en-GB\n"
+"X-Source-Language: C"
+
+msgctxt "zlevelpreview|"
+msgid "1-1"
+msgstr "Geometry Z Level Preview"
+
+msgctxt "zlevelpreview|"
+msgid "2-1"
+msgstr "Adds the command \"Z Level Preview\" to the \"3D\" tab."
+
+msgctxt "zlevelpreview|"
+msgid "2-2"
+msgstr ""
+
+msgctxt "zlevelpreview|"
+msgid "2-3"
+msgstr "Allows the user to preview exactly what ALPHACAM will"
+
+msgctxt "zlevelpreview|"
+msgid "2-4"
+msgstr "machine at each level during AutoZ Level Pocketing."
+
+msgctxt "zlevelpreview|"
+msgid "10-1"
+msgstr "Z Level Preview"
+
+msgctxt "zlevelpreview|"
+msgid "10-2"
+msgstr "Select"
+
+msgctxt "zlevelpreview|"
+msgid "303030-1"
+msgstr "3D"
