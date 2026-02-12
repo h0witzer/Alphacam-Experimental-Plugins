@@ -1,0 +1,21 @@
+References used for MultidrillExample
+
+
+NAME        : VBA
+DESCRIPTION : Visual Basic For Applications
+PATH        : C:\Program Files (x86)\Common Files\Microsoft Shared\VBA\VBA6\VBE6.DLL
+GUID        : {000204EF-0000-0000-C000-000000000046}
+
+
+NAME        : AlphaCAMRouter
+DESCRIPTION : AlphaCAM Router
+PATH        : C:\Program Files (x86)\Alphacam\Alphacam 2015 R1\Acam.exe\3
+GUID        : {B397ECE0-9D81-11D2-9904-00104B4AF281}
+
+
+NAME        : stdole
+DESCRIPTION : OLE Automation
+PATH        : C:\Windows\SysWOW64\stdole2.tlb
+GUID        : {00020430-0000-0000-C000-000000000046}
+
+

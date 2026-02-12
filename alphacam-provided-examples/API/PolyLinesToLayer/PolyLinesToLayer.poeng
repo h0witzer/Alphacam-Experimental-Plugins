@@ -1,0 +1,49 @@
+
+msgid ""
+msgstr ""
+"Language: en-GB\n"
+"X-Qt-Contexts: true\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: en-GB\n"
+"X-Source-Language: C"
+
+msgctxt "polylinestolayer|"
+msgid "1-1"
+msgstr "Move PolyLines To a User Layer"
+
+msgctxt "polylinestolayer|"
+msgid "2-1"
+msgstr "Adds the command, \"Move PolyLines\" to the \"Utils\""
+
+msgctxt "polylinestolayer|"
+msgid "2-2"
+msgstr "group of the \"CAD\" tab."
+
+msgctxt "polylinestolayer|"
+msgid "2-3"
+msgstr ""
+
+msgctxt "polylinestolayer|"
+msgid "2-4"
+msgstr "Moves all polylines in the active drawing to a"
+
+msgctxt "polylinestolayer|"
+msgid "2-5"
+msgstr "User Layer and hides the User Layer."
+
+# menu
+msgctxt "polylinestolayer|"
+msgid "10-1"
+msgstr "Move PolyLines"
+
+# Layer name
+msgctxt "polylinestolayer|"
+msgid "20-1"
+msgstr "PolyLines"
+
+msgctxt "polylinestolayer|"
+msgid "303030-1"
+msgstr "Utility"
