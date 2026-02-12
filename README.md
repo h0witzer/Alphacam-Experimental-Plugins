@@ -21,14 +21,19 @@ Alphacam-Experimental-Plugins/
 │   ├── chm-files/           # Place .chm API documentation here
 │   ├── api-reference/       # Extracted API documentation
 │   ├── guides/              # Development guides and tutorials
+│   ├── VBA_PARSING_SUMMARY.md     # VBA parsing capabilities summary
+│   ├── VBA_PARSING_CAPABILITIES.md # Technical parsing details
+│   ├── VBA_CODE_EXAMPLES.md       # Extracted VBA code examples
 │   └── README.md
 ├── tools/                   # Development tools
-│   └── chm-reader/          # Tools for reading CHM files
-│       ├── extract_chm.py
-│       ├── chm_to_html.py
-│       ├── search_chm.py
-│       ├── requirements.txt
-│       └── README.md
+│   ├── chm-reader/          # Tools for reading CHM files
+│   │   ├── extract_chm.py
+│   │   ├── chm_to_html.py
+│   │   ├── search_chm.py
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   ├── vba_parser.py        # VBA code parser for .bas and .arb files
+│   └── vba_parsing_results.json  # Parsed VBA analysis
 └── scripts/                 # Helper scripts
     ├── setup-chm-tools.sh   # Setup for Linux/Mac
     ├── setup-chm-tools.bat  # Setup for Windows
@@ -113,6 +118,50 @@ python tools/chm-reader/chm_to_html.py docs/chm-files/your-api.chm --output docs
 # Search for API methods
 python tools/chm-reader/search_chm.py docs/chm-files/your-api.chm --query "DrawLine"
 ```
+
+## 🔍 VBA Code Analysis
+
+This repository includes a comprehensive VBA parser that can extract and analyze information from Alphacam VBA files:
+
+### VBA Parser Tool
+
+Parse both `.bas` (plain text) and `.arb` (binary OLE compound) VBA files:
+
+```bash
+# Parse all VBA files in repository
+python3 tools/vba_parser.py --all
+
+# Parse a single file
+python3 tools/vba_parser.py path/to/file.bas
+python3 tools/vba_parser.py path/to/file.arb
+
+# Parse a directory
+python3 tools/vba_parser.py path/to/directory/
+```
+
+### Parsing Capabilities
+
+✅ **71 VBA files** successfully parsed (100% success rate)
+- 56 `.bas` files (plain text VBA modules)
+- 15 `.arb` files (binary VBA project containers)
+
+✅ **749 procedures** extracted
+- 304 Sub procedures
+- 445 Functions
+
+✅ **Extracts**:
+- Module names and structure
+- Sub/Function definitions with parameters
+- Variable declarations
+- API object usage patterns (Drawing, Path, MillData, etc.)
+- External library references
+
+### Documentation
+
+- **[VBA Parsing Summary](docs/VBA_PARSING_SUMMARY.md)** - Executive summary and statistics
+- **[VBA Parsing Capabilities](docs/VBA_PARSING_CAPABILITIES.md)** - Technical details
+- **[VBA Code Examples](docs/VBA_CODE_EXAMPLES.md)** - Real extracted code examples
+- **[Tools README](tools/README.md)** - Parser usage guide
 
 ## 🔧 VBA Macro Development
 
