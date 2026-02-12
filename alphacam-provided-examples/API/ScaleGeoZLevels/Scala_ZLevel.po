@@ -1,0 +1,80 @@
+
+msgid ""
+msgstr ""
+"Language: en-GB\n"
+"X-Qt-Contexts: true\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: en-GB\n"
+"X-Source-Language: C"
+
+# Titolo negli Agg/ins
+msgctxt "scala_zlevel|"
+msgid "1-1"
+msgstr "Scale Geometry Z Levels"
+
+# commento negli agg/ins
+msgctxt "scala_zlevel|"
+msgid "2-1"
+msgstr "Adds the command, \"Scale Z Levels\" to the \"Move,"
+
+msgctxt "scala_zlevel|"
+msgid "2-2"
+msgstr "Copy etc\" group in the \"Edit\" tab."
+
+msgctxt "scala_zlevel|"
+msgid "2-3"
+msgstr ""
+
+msgctxt "scala_zlevel|"
+msgid "2-4"
+msgstr "This command will scale all previously assigned"
+
+msgctxt "scala_zlevel|"
+msgid "2-5"
+msgstr "Z levels for the selected geometries."
+
+# Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   
+msgctxt "scala_zlevel|"
+msgid "10-1"
+msgstr "Scale &Z Levels"
+
+# Testi form 
+msgctxt "scala_zlevel|"
+msgid "100-1"
+msgstr "Select Geometries"
+
+msgctxt "scala_zlevel|"
+msgid "100-2"
+msgstr "Scale Z"
+
+msgctxt "scala_zlevel|"
+msgid "100-3"
+msgstr "Scale Factor"
+
+msgctxt "scala_zlevel|"
+msgid "100-4"
+msgstr "&Cancel"
+
+msgctxt "scala_zlevel|"
+msgid "100-5"
+msgstr "&OK"
+
+msgctxt "scala_zlevel|"
+msgid "100-6"
+msgstr "Scale Z Level"
+
+# errori
+msgctxt "scala_zlevel|"
+msgid "101-1"
+msgstr "Some geometries have no Z Level. No scaling has been done on those geometries."
+
+msgctxt "scala_zlevel|"
+msgid "101-2"
+msgstr "The selected geometries have no Z Level specified. No scaling has been done."
+
+msgctxt "scala_zlevel|"
+msgid "303030-1"
+msgstr "3D"

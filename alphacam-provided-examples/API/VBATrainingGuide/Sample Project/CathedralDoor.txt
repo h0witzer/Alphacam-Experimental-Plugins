@@ -1,0 +1,22 @@
+' text file for Standard Doors.arb
+
+$1
+Standard Doors Project
+
+$10
+&Standard Doors
+&Cathedral Door
+
+$15
+This command will open a new file, any unsaved data will be lost
+
+$20
+Cathedral Door
+Door Dimensions
+Width
+Height
+Depth
+Panel
+Border
+Shoulder
+Arch Height

@@ -1,0 +1,27 @@
+Company Name : Licom Systems Italy
+Autor : Costa Laia Luca
+
+$1 'Titolo negli Agg/ins
+Scala_ZLevel
+
+$2 'commento negli agg/ins
+Ver. 0.2 09 Novembre 2007
+Aggiunge un nuovo comando al menu MODIFICA.
+Scala i livelli in Z delle geometrie
+
+$10 'Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   Menu   -   
+Scala Livelli in Z
+
+'Testi  -  Testi  -  Testi  -  Testi  -  Testi  -  Testi  -  Testi  -  Testi  -  Testi  -  Testi  -  Testi  -  Testi  -  
+
+$100 'Testi form 
+Seleziona Geometrie
+Scala Z 
+Fattore di scala
+Annulla
+Ok
+Scala livelli in Z
+
+$101 'errori
+Alcune geometrie selezionate non hanno il livello in Z. Ad esse non verrà applicata la scala.
+Non avete selezionato geometrie con livello in Z. La scala non verrà applicata.
