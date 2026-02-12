@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AlphacamAddins</RootNamespace>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Your Name</Authors>
+    <Company>Your Company</Company>
+    <Product>Alphacam Addins</Product>
+    <Description>Experimental plugins and addins for Alphacam</Description>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <!-- Exclude test files from main project -->
+  <ItemGroup>
+    <Compile Remove="tests/**" />
+  </ItemGroup>
+
+  <!-- Uncomment the section below if you need Windows Forms support -->
+  <!--
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  -->
+
+  <!-- Add your Alphacam API references here when available -->
+  <!-- Example: -->
+  <!--
+  <ItemGroup>
+    <Reference Include="AlphacamAPI">
+      <HintPath>lib\AlphacamAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  -->
+
+</Project>
