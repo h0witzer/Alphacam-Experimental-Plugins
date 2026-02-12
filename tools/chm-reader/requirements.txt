@@ -1,0 +1,8 @@
+# Python requirements for CHM reader tools
+
+# CHM file handling
+pychm>=0.8.6
+
+# Optional: for better HTML parsing
+beautifulsoup4>=4.9.0
+lxml>=4.6.0

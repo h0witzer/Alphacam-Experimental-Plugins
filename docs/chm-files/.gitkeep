@@ -1,0 +1,39 @@
+# CHM Files Directory
+
+Place your Alphacam API documentation (.chm files) in this directory.
+
+## What are CHM Files?
+
+CHM (Compiled HTML Help) files are compressed collections of HTML pages that contain documentation. They're commonly used for Windows application documentation, including API references.
+
+## Usage
+
+1. **Download or copy** your Alphacam API .chm files to this directory
+2. **View on Windows**: Simply double-click the .chm file
+3. **View on Linux/Mac**: Use the CHM reader tools in `tools/chm-reader/`
+
+## CHM Reader Tools
+
+Convert CHM files to browsable HTML:
+
+```bash
+# Extract all contents
+python tools/chm-reader/extract_chm.py docs/chm-files/your-file.chm --output docs/api-reference/extracted
+
+# Convert to HTML with index
+python tools/chm-reader/chm_to_html.py docs/chm-files/your-file.chm --output docs/api-reference/html
+
+# Search within CHM
+python tools/chm-reader/search_chm.py docs/chm-files/your-file.chm --query "DrawLine"
+```
+
+## Organizing CHM Files
+
+Use descriptive names for your CHM files:
+- `alphacam-api-2024-reference.chm`
+- `alphacam-vba-guide.chm`
+- `alphacam-macro-examples.chm`
+
+## Note
+
+CHM files are not included in the Git repository by default. Each developer should download or copy the necessary documentation files to this directory.

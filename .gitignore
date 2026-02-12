@@ -1,0 +1,63 @@
+# Build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+*.cache
+
+# Visual Studio
+.vs/
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.svclog
+*.scc
+
+# VBA
+~$*
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.env
+
+# CHM extracted files (these can be regenerated)
+chm_extracted/
+chm_html/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Package managers
+node_modules/
+packages/
+
+# Test results
+TestResults/
+*.trx
+coverage/
+
+# Temporary files
+/tmp/
+*.bak
