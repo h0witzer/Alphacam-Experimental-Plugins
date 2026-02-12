@@ -1,5 +1,4 @@
 using System;
-using System.Windows.Forms;
 
 namespace AlphacamAddins.Templates
 {
@@ -15,6 +14,9 @@ namespace AlphacamAddins.Templates
     ///   1. Reference the Alphacam API assemblies
     ///   2. Implement the required interfaces
     ///   3. Build and deploy to Alphacam addins directory
+    ///   
+    /// Note: To use Windows Forms (MessageBox, etc.), uncomment the Windows Forms 
+    /// section in AlphacamAddins.csproj and add: using System.Windows.Forms;
     /// </summary>
     public class AddinTemplate
     {
@@ -47,12 +49,17 @@ namespace AlphacamAddins.Templates
                 Initialize();
                 
                 // Main logic here
+                Console.WriteLine($"Hello from {ADDIN_NAME} v{ADDIN_VERSION}");
+                
+                // If using Windows Forms, uncomment:
+                /*
                 MessageBox.Show(
                     $"Hello from {ADDIN_NAME} v{ADDIN_VERSION}",
                     ADDIN_NAME,
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information
                 );
+                */
                 
                 Cleanup();
             }
@@ -90,12 +97,17 @@ namespace AlphacamAddins.Templates
         /// <param name="ex">The exception to handle</param>
         private void HandleError(Exception ex)
         {
+            Console.WriteLine($"Error in {ADDIN_NAME}: {ex.Message}");
+            
+            // If using Windows Forms, uncomment:
+            /*
             MessageBox.Show(
                 $"Error in {ADDIN_NAME}: {ex.Message}",
                 ADDIN_NAME,
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error
             );
+            */
         }
         
         /// <summary>
