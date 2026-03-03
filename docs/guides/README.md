@@ -15,7 +15,13 @@ Before starting development, review the comprehensive API documentation in **[..
 
 ## Available Guides
 
-*(Add your guides here as you create them)*
+- **[3D Solid-Defined Machining Automation](./3d-solid-machining-automation.md)**  
+  End-to-end roadmap for building a per-part add-in that applies configurable 3D solid-defined machining strategies **before nesting**, without relying on layers or the Automation Manager. Covers:
+  - Language options: C# (in-process add-in), Python via COM, C++ via COM
+  - Full API object reference for `MillData`, `RoughFinish()`, `Engrave()`, and lead-in/lead-out
+  - JSON configuration schema for user-configurable operation lists
+  - Pre-nesting integration patterns (event hooks, batch scripts)
+  - Related examples: `csharp-addins/examples/SolidMachiningAddin.cs`
 
 ## Recommended Topics
 
